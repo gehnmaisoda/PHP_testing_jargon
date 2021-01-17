@@ -1,0 +1,22 @@
+{
+    "name": "shingo/example-1",
+    "authors": [
+        {
+            "name": "shingo maeda",
+            "email": "sangoku0795@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
